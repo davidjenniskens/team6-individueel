@@ -182,7 +182,7 @@ async function getGenres () {
         meerGenresInSwiper(uniqueGenres);
 
         console.log("Genres:", uniqueGenres); 
-    } catch {
+    } catch (error) {
         console.error('Error fetching genres:', error);
     }
 }

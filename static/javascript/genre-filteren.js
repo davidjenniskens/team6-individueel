@@ -85,7 +85,7 @@ async function getGenres () {
 
    
 
-  } catch {
+  } catch (error) {
     console.error('Error fetching genres:', error);
   }
 }
